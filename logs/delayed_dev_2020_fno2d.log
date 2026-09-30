@@ -1,0 +1,20 @@
+[dev_2020] fno2d sacp fields cached 29s
+[dev_2020] fno2d L0.9 v0 done 72s
+[dev_2020] fno2d L0.9 v1 done 117s
+[dev_2020] fno2d L0.9 v2 done 159s
+[dev_2020] fno2d L0.9 v3 done 201s
+[dev_2020] fno2d L0.9 v4 done 244s
+[dev_2020] fno2d L0.9 COMPLETE online_cov=0.879 w=0.4202 | aci_cov=0.889 w=0.4458 246s
+[dev_2020] fno2d L0.95 v0 done 288s
+[dev_2020] fno2d L0.95 v1 done 327s
+[dev_2020] fno2d L0.95 v2 done 367s
+[dev_2020] fno2d L0.95 v3 done 409s
+[dev_2020] fno2d L0.95 v4 done 458s
+[dev_2020] fno2d L0.95 COMPLETE online_cov=0.936 w=0.5351 | aci_cov=0.943 w=0.5767 459s
+[dev_2020] fno2d L0.8 v0 done 499s
+[dev_2020] fno2d L0.8 v1 done 543s
+[dev_2020] fno2d L0.8 v2 done 582s
+[dev_2020] fno2d L0.8 v3 done 621s
+[dev_2020] fno2d L0.8 v4 done 658s
+[dev_2020] fno2d L0.8 COMPLETE online_cov=0.774 w=0.3090 | aci_cov=0.783 w=0.3230 659s
+[dev_2020] fno2d DELAYED COMPLETE 660s

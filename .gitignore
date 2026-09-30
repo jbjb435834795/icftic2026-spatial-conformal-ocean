@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+results_rerun/
+eval/
+predictions/
+figures_out/
+
+*.npz
+*.npy
+
+.DS_Store
+Thumbs.db

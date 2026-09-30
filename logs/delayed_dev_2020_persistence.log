@@ -1,0 +1,20 @@
+[dev_2020] persistence sacp fields cached 26s
+[dev_2020] persistence L0.9 v0 done 70s
+[dev_2020] persistence L0.9 v1 done 121s
+[dev_2020] persistence L0.9 v2 done 173s
+[dev_2020] persistence L0.9 v3 done 222s
+[dev_2020] persistence L0.9 v4 done 268s
+[dev_2020] persistence L0.9 COMPLETE online_cov=0.871 w=0.5749 | aci_cov=0.884 w=0.6184 270s
+[dev_2020] persistence L0.95 v0 done 312s
+[dev_2020] persistence L0.95 v1 done 354s
+[dev_2020] persistence L0.95 v2 done 396s
+[dev_2020] persistence L0.95 v3 done 443s
+[dev_2020] persistence L0.95 v4 done 487s
+[dev_2020] persistence L0.95 COMPLETE online_cov=0.929 w=0.7353 | aci_cov=0.940 w=0.7946 488s
+[dev_2020] persistence L0.8 v0 done 531s
+[dev_2020] persistence L0.8 v1 done 578s
+[dev_2020] persistence L0.8 v2 done 621s
+[dev_2020] persistence L0.8 v3 done 660s
+[dev_2020] persistence L0.8 v4 done 694s
+[dev_2020] persistence L0.8 COMPLETE online_cov=0.762 w=0.4176 | aci_cov=0.775 w=0.4445 695s
+[dev_2020] persistence DELAYED COMPLETE 695s

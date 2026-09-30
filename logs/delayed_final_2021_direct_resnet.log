@@ -1,0 +1,20 @@
+[final_2021] direct_resnet sacp fields cached 28s
+[final_2021] direct_resnet L0.9 v0 done 71s
+[final_2021] direct_resnet L0.9 v1 done 111s
+[final_2021] direct_resnet L0.9 v2 done 151s
+[final_2021] direct_resnet L0.9 v3 done 189s
+[final_2021] direct_resnet L0.9 v4 done 231s
+[final_2021] direct_resnet L0.9 COMPLETE online_cov=0.898 w=0.3570 | aci_cov=0.896 w=0.3598 232s
+[final_2021] direct_resnet L0.95 v0 done 277s
+[final_2021] direct_resnet L0.95 v1 done 328s
+[final_2021] direct_resnet L0.95 v2 done 371s
+[final_2021] direct_resnet L0.95 v3 done 418s
+[final_2021] direct_resnet L0.95 v4 done 465s
+[final_2021] direct_resnet L0.95 COMPLETE online_cov=0.948 w=0.4540 | aci_cov=0.947 w=0.4679 466s
+[final_2021] direct_resnet L0.8 v0 done 506s
+[final_2021] direct_resnet L0.8 v1 done 547s
+[final_2021] direct_resnet L0.8 v2 done 585s
+[final_2021] direct_resnet L0.8 v3 done 624s
+[final_2021] direct_resnet L0.8 v4 done 661s
+[final_2021] direct_resnet L0.8 COMPLETE online_cov=0.801 w=0.2634 | aci_cov=0.794 w=0.2611 662s
+[final_2021] direct_resnet DELAYED COMPLETE 662s

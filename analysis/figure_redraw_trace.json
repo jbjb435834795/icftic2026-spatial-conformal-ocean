@@ -1,0 +1,25 @@
+{
+  "description": "Display-only redraw of frozen results; no new experiments.",
+  "map_scale": [
+    0.35,
+    1.0
+  ],
+  "map_minima": {
+    "split": 0.39886039886039887,
+    "sacp": 0.6752136752136753,
+    "aci": 0.8176638176638177
+  },
+  "autumn_coverage": {
+    "split": 0.8674313723385989,
+    "normalized": 0.9342057112809066,
+    "gaussian": 0.8837444375286172,
+    "online": 0.8648724566449176,
+    "aci": 0.8657238188244047,
+    "weighted": 0.8592358487866301,
+    "sacp": 0.8681495750343406
+  },
+  "source_sha256": {
+    "spatial_final_2021.npz": "c7eb55e6759cc0932ed26586980a4eec01e7cb4768f0f1a17456c75e7b6c8d93",
+    "cp_results_final_2021.json": "f962a98a659759fe63e39dd5e1b332ab6bc77846855c2eddf18f6a75b7282493"
+  }
+}

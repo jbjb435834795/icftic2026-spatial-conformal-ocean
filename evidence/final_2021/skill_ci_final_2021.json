@@ -1,0 +1,81 @@
+{
+ "split": "final_2021",
+ "level": "0.9",
+ "block": 14,
+ "nboot": 10000,
+ "paired": "same block indices applied to method and split arrays",
+ "results": {
+  "convlstm": {
+   "n_windows": 351,
+   "sacp": {
+    "skill_pct": 6.77,
+    "ci95": [
+     5.9,
+     7.6
+    ]
+   },
+   "online": {
+    "skill_pct": 6.96,
+    "ci95": [
+     6.16,
+     7.72
+    ]
+   },
+   "aci": {
+    "skill_pct": 7.0,
+    "ci95": [
+     6.21,
+     7.76
+    ]
+   }
+  },
+  "fno2d": {
+   "n_windows": 351,
+   "sacp": {
+    "skill_pct": 6.51,
+    "ci95": [
+     5.53,
+     7.39
+    ]
+   },
+   "online": {
+    "skill_pct": 6.77,
+    "ci95": [
+     5.84,
+     7.6
+    ]
+   },
+   "aci": {
+    "skill_pct": 7.02,
+    "ci95": [
+     6.03,
+     7.95
+    ]
+   }
+  },
+  "direct_resnet": {
+   "n_windows": 351,
+   "sacp": {
+    "skill_pct": 6.57,
+    "ci95": [
+     5.66,
+     7.39
+    ]
+   },
+   "online": {
+    "skill_pct": 6.78,
+    "ci95": [
+     5.94,
+     7.53
+    ]
+   },
+   "aci": {
+    "skill_pct": 6.89,
+    "ci95": [
+     6.11,
+     7.61
+    ]
+   }
+  }
+ }
+}

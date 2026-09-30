@@ -1,0 +1,20 @@
+[dev_2020] direct_resnet sacp fields cached 28s
+[dev_2020] direct_resnet L0.9 v0 done 68s
+[dev_2020] direct_resnet L0.9 v1 done 111s
+[dev_2020] direct_resnet L0.9 v2 done 152s
+[dev_2020] direct_resnet L0.9 v3 done 194s
+[dev_2020] direct_resnet L0.9 v4 done 232s
+[dev_2020] direct_resnet L0.9 COMPLETE online_cov=0.888 w=0.3642 | aci_cov=0.894 w=0.3812 233s
+[dev_2020] direct_resnet L0.95 v0 done 274s
+[dev_2020] direct_resnet L0.95 v1 done 313s
+[dev_2020] direct_resnet L0.95 v2 done 351s
+[dev_2020] direct_resnet L0.95 v3 done 389s
+[dev_2020] direct_resnet L0.95 v4 done 429s
+[dev_2020] direct_resnet L0.95 COMPLETE online_cov=0.941 w=0.4619 | aci_cov=0.946 w=0.4932 430s
+[dev_2020] direct_resnet L0.8 v0 done 470s
+[dev_2020] direct_resnet L0.8 v1 done 507s
+[dev_2020] direct_resnet L0.8 v2 done 548s
+[dev_2020] direct_resnet L0.8 v3 done 587s
+[dev_2020] direct_resnet L0.8 v4 done 625s
+[dev_2020] direct_resnet L0.8 COMPLETE online_cov=0.786 w=0.2695 | aci_cov=0.791 w=0.2777 627s
+[dev_2020] direct_resnet DELAYED COMPLETE 627s

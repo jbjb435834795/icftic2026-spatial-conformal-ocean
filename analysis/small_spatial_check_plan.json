@@ -1,0 +1,64 @@
+{
+  "nominal": 0.9,
+  "sacp_sigma": 1,
+  "families": [
+    "convlstm",
+    "fno2d",
+    "direct_resnet"
+  ],
+  "methods": [
+    "split",
+    "sacp",
+    "aci"
+  ],
+  "variable_order": [
+    "SSH",
+    "u",
+    "v",
+    "SST",
+    "SSS"
+  ],
+  "leads": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "tiles": {
+    "T1": [
+      0,
+      16,
+      0,
+      32
+    ],
+    "T2": [
+      0,
+      16,
+      32,
+      64
+    ],
+    "T3": [
+      16,
+      32,
+      0,
+      32
+    ],
+    "T4": [
+      16,
+      32,
+      32,
+      64
+    ]
+  },
+  "metric": "mean absolute deviation from .90 of each cell-variable-lead empirical coverage; absolute value before averaging",
+  "interpretation": "Post hoc descriptive within-domain stratification of frozen 2021 maps; not external validation.",
+  "inference": "No iid-cell standard errors, p-values, or confidence intervals are calculated."
+}

@@ -1,0 +1,37 @@
+# SACP bandwidth robustness analysis
+
+All results use only the frozen 2020 development-year sweep. They are robustness diagnostics, not an independent final-year validation.
+
+## Best-vs-runner-up separation
+
+- 45 architecture × level × variable selections were examined.
+- Median extra Winkler skill of the best bandwidth over the runner-up: **0.103 percentage points**.
+- Mean extra skill: **0.106 pp**; maximum: **0.341 pp**.
+- **24%** of selections have a best-vs-runner-up gap below 0.05 pp; **44%** are below 0.10 pp.
+- Interpretation: the preferred bandwidth rank is often stable, but the objective surface is shallow. This supports cautious "scale preference" language rather than a strong physical-scale claim.
+
+## Leave-one-combination-out transfer
+
+For each variable, one of the nine architecture × nominal-level combinations is held out. The bandwidth is chosen from the other eight using mean dimensionless Winkler ratio, then evaluated on the held-out combination.
+
+| Variable | CV-selected skill | fixed σ=1 skill | oracle skill | regret to oracle | oracle match | >= fixed σ=1 |
+|---|---:|---:|---:|---:|---:|---:|
+| SSH | 2.878% | 2.765% | 2.878% | 0.000 pp | 100% | 100% |
+| u | 6.753% | 6.696% | 6.754% | 0.001 pp | 78% | 78% |
+| v | 7.272% | 7.272% | 7.272% | 0.000 pp | 100% | 100% |
+| SST | 9.772% | 9.772% | 9.791% | 0.019 pp | 78% | 100% |
+| SSS | 10.899% | 10.714% | 10.899% | 0.000 pp | 100% | 100% |
+
+Across all 45 held-out cases, the transferred selector achieves **7.515%** mean skill versus **7.444%** for fixed σ=1, with **0.004 pp** mean regret to the within-case oracle. It matches the oracle bandwidth in **91%** of cases.
+
+## Leave-one-combination-out modal selections
+
+| Variable | modal selected σ | frequency |
+|---|---:|---:|
+| SSH | 2 | 100% |
+| u | 2 | 100% |
+| v | 1 | 100% |
+| SST | 1 | 100% |
+| SSS | 2 | 100% |
+
+These transfer tests reuse the same development year, so they demonstrate cross-architecture / cross-level robustness only. They do not replace a later unseen-year evaluation or a time-block bootstrap based on raw per-window scores.

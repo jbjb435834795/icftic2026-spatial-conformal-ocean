@@ -1,0 +1,20 @@
+[final_2021] convlstm sacp fields cached 28s
+[final_2021] convlstm L0.9 v0 done 72s
+[final_2021] convlstm L0.9 v1 done 112s
+[final_2021] convlstm L0.9 v2 done 155s
+[final_2021] convlstm L0.9 v3 done 198s
+[final_2021] convlstm L0.9 v4 done 243s
+[final_2021] convlstm L0.9 COMPLETE online_cov=0.898 w=0.3820 | aci_cov=0.896 w=0.3871 244s
+[final_2021] convlstm L0.95 v0 done 286s
+[final_2021] convlstm L0.95 v1 done 327s
+[final_2021] convlstm L0.95 v2 done 371s
+[final_2021] convlstm L0.95 v3 done 417s
+[final_2021] convlstm L0.95 v4 done 460s
+[final_2021] convlstm L0.95 COMPLETE online_cov=0.948 w=0.4850 | aci_cov=0.947 w=0.5016 462s
+[final_2021] convlstm L0.8 v0 done 503s
+[final_2021] convlstm L0.8 v1 done 542s
+[final_2021] convlstm L0.8 v2 done 582s
+[final_2021] convlstm L0.8 v3 done 629s
+[final_2021] convlstm L0.8 v4 done 669s
+[final_2021] convlstm L0.8 COMPLETE online_cov=0.799 w=0.2821 | aci_cov=0.794 w=0.2818 670s
+[final_2021] convlstm DELAYED COMPLETE 670s

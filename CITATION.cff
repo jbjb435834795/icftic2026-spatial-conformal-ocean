@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or the frozen results, please cite it as below."
+title: "Spatially Localized Conformal Calibration for Regional Ocean Forecasting"
+abstract: >-
+  Conformal calibration code and frozen evaluation results for spatially localized
+  conformal prediction applied to 12-day regional ocean forecasts of five variables
+  over the equatorial Pacific, comparing split conformal prediction, spatially
+  adaptive conformal prediction, normalized and seasonal variants, conformalized
+  quantile regression, and adaptive methods under observation-aware feedback delay.
+authors:
+  - family-names: "Li"
+    given-names: "Tao"
+    affiliation: "China University of Petroleum (East China)"
+  - family-names: "Li"
+    given-names: "Wenjie"
+    affiliation: "China University of Petroleum (East China)"
+version: 1.0.0
+date-released: "2026-10-01"
+license: MIT
+keywords:
+  - conformal prediction
+  - uncertainty quantification
+  - ocean forecasting
+  - spatial calibration
+  - GLORYS12
+repository-code: "https://github.com/jbjb435834795/icftic2026-spatial-conformal-ocean"

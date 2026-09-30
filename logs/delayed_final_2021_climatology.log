@@ -1,0 +1,20 @@
+[final_2021] climatology sacp fields cached 29s
+[final_2021] climatology L0.9 v0 done 71s
+[final_2021] climatology L0.9 v1 done 115s
+[final_2021] climatology L0.9 v2 done 159s
+[final_2021] climatology L0.9 v3 done 206s
+[final_2021] climatology L0.9 v4 done 250s
+[final_2021] climatology L0.9 COMPLETE online_cov=0.881 w=0.8082 | aci_cov=0.897 w=0.8613 251s
+[final_2021] climatology L0.95 v0 done 294s
+[final_2021] climatology L0.95 v1 done 333s
+[final_2021] climatology L0.95 v2 done 371s
+[final_2021] climatology L0.95 v3 done 411s
+[final_2021] climatology L0.95 v4 done 452s
+[final_2021] climatology L0.95 COMPLETE online_cov=0.933 w=0.9743 | aci_cov=0.946 w=1.0407 453s
+[final_2021] climatology L0.8 v0 done 497s
+[final_2021] climatology L0.8 v1 done 538s
+[final_2021] climatology L0.8 v2 done 580s
+[final_2021] climatology L0.8 v3 done 625s
+[final_2021] climatology L0.8 v4 done 665s
+[final_2021] climatology L0.8 COMPLETE online_cov=0.787 w=0.6347 | aci_cov=0.799 w=0.6588 667s
+[final_2021] climatology DELAYED COMPLETE 667s

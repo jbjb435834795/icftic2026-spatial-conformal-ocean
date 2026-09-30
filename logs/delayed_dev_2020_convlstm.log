@@ -1,0 +1,20 @@
+[dev_2020] convlstm sacp fields cached 30s
+[dev_2020] convlstm L0.9 v0 done 76s
+[dev_2020] convlstm L0.9 v1 done 115s
+[dev_2020] convlstm L0.9 v2 done 158s
+[dev_2020] convlstm L0.9 v3 done 199s
+[dev_2020] convlstm L0.9 v4 done 242s
+[dev_2020] convlstm L0.9 COMPLETE online_cov=0.888 w=0.3883 | aci_cov=0.893 w=0.4067 244s
+[dev_2020] convlstm L0.95 v0 done 289s
+[dev_2020] convlstm L0.95 v1 done 331s
+[dev_2020] convlstm L0.95 v2 done 379s
+[dev_2020] convlstm L0.95 v3 done 423s
+[dev_2020] convlstm L0.95 v4 done 469s
+[dev_2020] convlstm L0.95 COMPLETE online_cov=0.941 w=0.4921 | aci_cov=0.946 w=0.5251 471s
+[dev_2020] convlstm L0.8 v0 done 519s
+[dev_2020] convlstm L0.8 v1 done 569s
+[dev_2020] convlstm L0.8 v2 done 614s
+[dev_2020] convlstm L0.8 v3 done 656s
+[dev_2020] convlstm L0.8 v4 done 691s
+[dev_2020] convlstm L0.8 COMPLETE online_cov=0.785 w=0.2871 | aci_cov=0.790 w=0.2965 692s
+[dev_2020] convlstm DELAYED COMPLETE 692s

@@ -1,0 +1,20 @@
+[final_2021] fno2d sacp fields cached 29s
+[final_2021] fno2d L0.9 v0 done 70s
+[final_2021] fno2d L0.9 v1 done 115s
+[final_2021] fno2d L0.9 v2 done 158s
+[final_2021] fno2d L0.9 v3 done 198s
+[final_2021] fno2d L0.9 v4 done 237s
+[final_2021] fno2d L0.9 COMPLETE online_cov=0.893 w=0.4135 | aci_cov=0.892 w=0.4220 239s
+[final_2021] fno2d L0.95 v0 done 277s
+[final_2021] fno2d L0.95 v1 done 316s
+[final_2021] fno2d L0.95 v2 done 355s
+[final_2021] fno2d L0.95 v3 done 394s
+[final_2021] fno2d L0.95 v4 done 441s
+[final_2021] fno2d L0.95 COMPLETE online_cov=0.944 w=0.5283 | aci_cov=0.945 w=0.5496 442s
+[final_2021] fno2d L0.8 v0 done 490s
+[final_2021] fno2d L0.8 v1 done 530s
+[final_2021] fno2d L0.8 v2 done 570s
+[final_2021] fno2d L0.8 v3 done 607s
+[final_2021] fno2d L0.8 v4 done 643s
+[final_2021] fno2d L0.8 COMPLETE online_cov=0.793 w=0.3026 | aci_cov=0.789 w=0.3038 644s
+[final_2021] fno2d DELAYED COMPLETE 645s

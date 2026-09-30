@@ -1,0 +1,76 @@
+{
+  "provenance": "Frozen 2020 development summaries; no new experiments.",
+  "holm_scope": "All 2100 stored tests jointly; 60 entries per displayed series.",
+  "holm_max_absolute_difference": 0.0,
+  "external_validation_performed": false,
+  "global": {
+    "coverage": [
+      0.8751989422422467,
+      0.8846041823878433
+    ],
+    "macro_winkler_skill_pct": [
+      0.0,
+      0.0
+    ],
+    "macro_width_ratio": [
+      1.0,
+      1.0
+    ]
+  },
+  "0": {
+    "coverage": [
+      0.8745958039254853,
+      0.8852977405894886
+    ],
+    "macro_winkler_skill_pct": [
+      7.055640002545205,
+      7.183952627504198
+    ],
+    "macro_width_ratio": [
+      0.9952991296557613,
+      0.9993493082164614
+    ]
+  },
+  "1": {
+    "coverage": [
+      0.8749495303992069,
+      0.8854958042953953
+    ],
+    "macro_winkler_skill_pct": [
+      7.450229758961258,
+      7.518142347266499
+    ],
+    "macro_width_ratio": [
+      0.9883648592291856,
+      0.9920103927454175
+    ]
+  },
+  "2": {
+    "coverage": [
+      0.8764688434022846,
+      0.8867593938654119
+    ],
+    "macro_winkler_skill_pct": [
+      7.4926835212878355,
+      7.51501523997955
+    ],
+    "macro_width_ratio": [
+      0.9887811909003996,
+      0.9924641145467085
+    ]
+  },
+  "4": {
+    "coverage": [
+      0.8792151017622514,
+      0.8892037825150924
+    ],
+    "macro_winkler_skill_pct": [
+      7.022687525957516,
+      7.055704425238519
+    ],
+    "macro_width_ratio": [
+      0.9919136172385994,
+      0.9954562013957509
+    ]
+  }
+}

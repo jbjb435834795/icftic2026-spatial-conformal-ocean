@@ -1,0 +1,172 @@
+{
+  "plan": {
+    "nominal": 0.9,
+    "sacp_sigma": 1,
+    "families": [
+      "convlstm",
+      "fno2d",
+      "direct_resnet"
+    ],
+    "methods": [
+      "split",
+      "sacp",
+      "aci"
+    ],
+    "variable_order": [
+      "SSH",
+      "u",
+      "v",
+      "SST",
+      "SSS"
+    ],
+    "leads": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "tiles": {
+      "T1": [
+        0,
+        16,
+        0,
+        32
+      ],
+      "T2": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "T3": [
+        16,
+        32,
+        0,
+        32
+      ],
+      "T4": [
+        16,
+        32,
+        32,
+        64
+      ]
+    },
+    "metric": "mean absolute deviation from .90 of each cell-variable-lead empirical coverage; absolute value before averaging",
+    "interpretation": "Post hoc descriptive within-domain stratification of frozen 2021 maps; not external validation.",
+    "inference": "No iid-cell standard errors, p-values, or confidence intervals are calculated."
+  },
+  "tile_comparisons": [
+    {
+      "family": "convlstm",
+      "tile": "T1",
+      "split_gap": 0.06262872447768279,
+      "sacp_gap": 0.03749938790954415,
+      "absolute_reduction_pp": 2.512933656813864,
+      "relative_reduction_pct": 40.12429883845593
+    },
+    {
+      "family": "convlstm",
+      "tile": "T2",
+      "split_gap": 0.06360361764007597,
+      "sacp_gap": 0.031479014571462495,
+      "absolute_reduction_pp": 3.212460306861347,
+      "relative_reduction_pct": 50.507509258989224
+    },
+    {
+      "family": "convlstm",
+      "tile": "T3",
+      "split_gap": 0.05254620355531814,
+      "sacp_gap": 0.0353233877908357,
+      "absolute_reduction_pp": 1.7222815764482438,
+      "relative_reduction_pct": 32.77651780561288
+    },
+    {
+      "family": "convlstm",
+      "tile": "T4",
+      "split_gap": 0.07961614509140551,
+      "sacp_gap": 0.02964975442188984,
+      "absolute_reduction_pp": 4.996639066951566,
+      "relative_reduction_pct": 62.759118282039886
+    },
+    {
+      "family": "fno2d",
+      "tile": "T1",
+      "split_gap": 0.056046581938509005,
+      "sacp_gap": 0.03684252210944918,
+      "absolute_reduction_pp": 1.9204059829059823,
+      "relative_reduction_pct": 34.264462104271374
+    },
+    {
+      "family": "fno2d",
+      "tile": "T2",
+      "split_gap": 0.06072332398504273,
+      "sacp_gap": 0.033397398801044635,
+      "absolute_reduction_pp": 2.7325925183998097,
+      "relative_reduction_pct": 45.000707126521874
+    },
+    {
+      "family": "fno2d",
+      "tile": "T3",
+      "split_gap": 0.05509376112891739,
+      "sacp_gap": 0.03804865562678063,
+      "absolute_reduction_pp": 1.7045105502136761,
+      "relative_reduction_pct": 30.93835881389879
+    },
+    {
+      "family": "fno2d",
+      "tile": "T4",
+      "split_gap": 0.087097596895774,
+      "sacp_gap": 0.03203662897673314,
+      "absolute_reduction_pp": 5.506096791904085,
+      "relative_reduction_pct": 63.217551208594166
+    },
+    {
+      "family": "direct_resnet",
+      "tile": "T1",
+      "split_gap": 0.06016105398266855,
+      "sacp_gap": 0.036885553923314336,
+      "absolute_reduction_pp": 2.3275500059354215,
+      "relative_reduction_pct": 38.68865074415005
+    },
+    {
+      "family": "direct_resnet",
+      "tile": "T2",
+      "split_gap": 0.06186325899216523,
+      "sacp_gap": 0.030191473023504275,
+      "absolute_reduction_pp": 3.167178596866095,
+      "relative_reduction_pct": 51.196439509713
+    },
+    {
+      "family": "direct_resnet",
+      "tile": "T3",
+      "split_gap": 0.05256729285375119,
+      "sacp_gap": 0.03480068108974359,
+      "absolute_reduction_pp": 1.7766611764007603,
+      "relative_reduction_pct": 33.797844247822596
+    },
+    {
+      "family": "direct_resnet",
+      "tile": "T4",
+      "split_gap": 0.07743708452041788,
+      "sacp_gap": 0.029170617432336184,
+      "absolute_reduction_pp": 4.82664670880817,
+      "relative_reduction_pct": 62.32991258258858
+    }
+  ],
+  "tile_aggregates_improved": 12,
+  "tile_aggregates_total": 12,
+  "detailed_cases_improved": 713,
+  "detailed_cases_worse": 7,
+  "detailed_cases_tied": 0,
+  "detailed_cases_total": 720,
+  "worst_detailed_increase_pp": 0.34566417378917513,
+  "new_external_validation": false
+}
